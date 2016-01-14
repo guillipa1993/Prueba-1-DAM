@@ -14,7 +14,7 @@ public class BombaNormal {
 			
 			if (palabra.charAt(i)!= ' '){
 			letra =  new String(new char[]{palabra.charAt(i)});		
-			temporal = temporal + Integer.toString(i);
+			temporal = temporal+ letra + Integer.toString(i);
 			codificada = codificada + temporal ;
 			}else {
 				temporal = temporal + " ";
